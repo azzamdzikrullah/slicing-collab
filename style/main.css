@@ -1,0 +1,210 @@
+* {
+  font-family: "poppins", sans-serif;
+}
+
+:root {
+  --primary-background-color:#B0B0B0;
+  --secondary-background-color:#008EDE;
+}
+
+.navbar {
+  background-color: var(--secondary-background-color);
+}
+.navbar .container-fluid {
+  width: 950px;
+  height: 75px;
+  margin-top: 21px;
+  margin: auto;
+  background-color: var(--primary-background-color);
+  padding: 20.5px 14px;
+}
+.navbar .container-fluid .collapse ul .nav-item {
+  margin-right: 26px;
+}
+.navbar .container-fluid .collapse ul .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar .container-fluid .d-flex .btn-primary {
+  background-color: white;
+  border-color: var(--primary-background-color);
+  width: 100px;
+  color: var(--secondary-background-color);
+  border-radius: 15px;
+  margin: 15px;
+}
+.navbar .container-fluid .d-flex .btn-primary:hover {
+  background-color: var(--secondary-background-color);
+  color: #fff;
+}
+
+.head {
+  padding-top: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--secondary-background-color);
+}
+
+.row .kiri .content {
+  position: absolute;
+  left: 20px;
+}
+.row .kiri .content h2 {
+  font-weight: bold;
+  font-size: 83px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 35px;
+}
+.row .kiri .content p {
+  color: rgb(255, 255, 255);
+  font-weight: reguler;
+  font-size: 25px;
+}
+.row .kiri .content .btn-primary {
+  margin-top: 30px;
+  padding-top: 38px;
+  background: #fff;
+  color: #018491;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 32px;
+  height: 119px;
+  width: 323px;
+}
+.row .kiri .content .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+#services {
+  margin-bottom: 170px;
+}
+#services .title-services {
+  margin-top: 50px;
+  font-size: 45px;
+  color: var(--secondary-background-color);
+}
+#services .row {
+  margin-top: 75px;
+  gap: 65px;
+}
+#services .row .col .card {
+  width: 350px;
+  height: 300px;
+}
+#services .row .col .card .card-body .bg-icon {
+  width: 60px;
+  height: 60px;
+}
+#services .row .col :hover {
+  background-color: var(--secondary-background-color);
+}
+
+.buy {
+  margin-bottom: 40px;
+}
+.buy .buyyer {
+  font-weight: bold;
+  font-size: 65px;
+  margin-bottom: 45px;
+  color: var(--secondary-background-color);
+}
+.buy .row .col-md-4 {
+  margin-bottom: 42px;
+}
+.buy .row .col-md-4 a {
+  text-decoration: none;
+}
+.buy .row .col-md-4 a .card .card-body {
+  align-items: center;
+}
+.buy .row .col-md-4 a .card .card-body h2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 24px;
+}
+.buy .row .col-md-4 a .card .card-body span {
+  color: red;
+  display: block;
+}
+.buy .row .col-md-4 a :hover {
+  background-color: #018491;
+}
+.buy .row .col-md-4 a .no-border {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border: none;
+}
+
+#feature {
+  margin-bottom: 30px;
+}
+#feature .row {
+  width: 1200px;
+  margin-bottom: 30px;
+}
+#feature .row .col-4 h2 {
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 90px;
+  color: var(--secondary-background-color);
+}
+#feature .row .col-4 a {
+  text-decoration: none;
+  background-color: var(--secondary-background-color);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 35px;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+#feature .row .col-4 :hover {
+  background-color: #fff;
+  color: #008EDE;
+}
+
+#question .border {
+  padding-top: 120px;
+  padding-bottom: 205px;
+}
+#question .border .forem {
+  background-color: #d9d9d9;
+}
+#question .border .forem .mb-3 input {
+  background-color: #959595;
+}
+#question .border .forem .bagus {
+  color: var(--secondary-background-color);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#footer {
+  background-color: black;
+  height: 150px;
+  width: 100%;
+}
+#footer .row {
+  width: 1140px;
+  height: 80px;
+  padding-top: 50px;
+}
+#footer .row .col h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+#footer .row .col ul {
+  gap: 15px;
+}
+#footer .row .col ul li {
+  list-style: none;
+}
+#footer .row .col ul li a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
